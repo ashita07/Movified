@@ -11,27 +11,27 @@ import HeaderItem from './HeaderItem';
  function Header(){
     const [toggle,setToggle]=useState(false);
     const Symbols=[
-        {   key:"1",
+        {   id:1,
             name:'HOME',
             icon: <HiHome></HiHome>
         },
-        {   key:"2",
+        {   id:2,
             name:'SEARCH',
             icon:<HiMagnifyingGlass></HiMagnifyingGlass>
         },
-        {   key:"3",
+        {   id:3,
             name:'WATCH LIST',
             icon: <HiPlus></HiPlus>
         },
-        {   key:"4",
+        {   id:4,
             name:'ORIGINALS',
             icon: <HiStar></HiStar>
         },
-        {   key:"5",
+        {   id:5,
             name:'MOVIES',
             icon: <HiPlayCircle></HiPlayCircle>
         },
-        {   key:"6",
+        {   id:6,
             name:'SERIES',
             icon: <HiTv></HiTv>
         }

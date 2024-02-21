@@ -1,5 +1,6 @@
 
 import Header from './Components/Header'
+import ProductionHouse from './Components/ProductionHouse'
 import Sliders from './Components/Sliders'
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
     <div className=''>
     <Header/>
     <Sliders/>
+    <ProductionHouse/>
     </div>
     </>
   )
