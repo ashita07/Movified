@@ -1,4 +1,5 @@
 
+import GenreMovieList from './Components/GenreMovieList'
 import Header from './Components/Header'
 import ProductionHouse from './Components/ProductionHouse'
 import Sliders from './Components/Sliders'
@@ -12,6 +13,7 @@ function App() {
     <Header/>
     <Sliders/>
     <ProductionHouse/>
+    <GenreMovieList/>
     </div>
     </>
   )
